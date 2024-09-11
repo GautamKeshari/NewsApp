@@ -1,17 +1,22 @@
 .navbar {
   background-color: rgb(41, 47, 51) !important;
-  padding: 20px !important;
+  padding: 18px !important;
   font-size: 18px !important;
+  display: flex !important;  /* Add this */
+  justify-content: space-between !important;  /* Add this */
+  align-items: center !important;  /* Add this */
 }
 
 .nav-brand {
-  font-size: 23px !important;
+  font-size: 15px !important;
   margin-left: 10px !important;
   font-weight: 700 !important;
 }
 
 .nav {
   margin-left: 5px !important;
+  display: flex !important; /* Add this */
+  align-items: center !important; /* Add this */
 }
 
 .nav-item {
@@ -33,6 +38,7 @@
 .search-form {
   display: flex !important;
   align-items: center !important;
+  margin-left: auto !important; /* Add this */
 }
 
 .form-input {
